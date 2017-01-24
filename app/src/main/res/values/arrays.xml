@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="cardImgs">
+        <item>@drawable/norm</item>
+        <item>@drawable/black_mage</item>
+        <item>@drawable/dancer</item>
+        <item>@drawable/dark_knight</item>
+        <item>@drawable/dragoon</item>
+        <item>@drawable/knight</item>
+        <item>@drawable/ninja</item>
+        <item>@drawable/scholar</item>
+        <item>@drawable/thief</item>
+        <item>@drawable/white_mage</item>
+        <item>@id/imageButton1</item>
+    </integer-array>
+    <integer-array name="buttonIDs">
+        <item>@id/imageButton1</item>
+        <item>@id/imageButton2</item>
+        <item>@id/imageButton3</item>
+        <item>@id/imageButton4</item>
+        <item>@id/imageButton5</item>
+        <item>@id/imageButton6</item>
+        <item>@id/imageButton7</item>
+        <item>@id/imageButton8</item>
+        <item>@id/imageButton9</item>
+        <item>@id/imageButton10</item>
+        <item>@id/imageButton11</item>
+        <item>@id/imageButton12</item>
+        <item>@id/imageButton13</item>
+        <item>@id/imageButton14</item>
+        <item>@id/imageButton15</item>
+        <item>@id/imageButton16</item>
+    </integer-array>
+</resources>
