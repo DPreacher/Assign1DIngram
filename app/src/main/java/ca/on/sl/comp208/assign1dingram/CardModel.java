@@ -6,11 +6,16 @@ package ca.on.sl.comp208.assign1dingram;
 
 public class CardModel {
     private int image;
-    private int cardID;
     private CardState currentState;
 
-    public CardModel(int cardID, int image) {
-        this.cardID = cardID;
+    public CardModel(int image, CardState currentState) {
+        this.image = image;
+        this.currentState = currentState;
+    }
+
+    public CardModel() { }
+
+    public CardModel(int image) {
         this.image = image;
         currentState = CardState.FACE_DOWN;
     }
@@ -21,6 +26,4 @@ public class CardModel {
     public int getImage() {return image;}
     public void setImage(int image) {this.image = image;}
 
-    public int getCardID() {return cardID;}
-    public void setCardID(int cardID) {this.cardID = cardID;}
 }
